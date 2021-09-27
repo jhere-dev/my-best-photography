@@ -1,0 +1,46 @@
+@font-face {
+  font-family: vintage;
+  src: url(../fonts/GistRoughUprExboldTwoDemo-aDOg.otf);
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  // height: 75vh;
+
+  form {
+    padding: 2rem;
+    color: black;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(128, 128, 131, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    min-width: 30%;
+
+    .title {
+      border-bottom: 2px solid white;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      font-size: 2rem;
+      font-family: vintage;
+    }
+
+    .submit {
+      display: flex;
+      justify-content: space-between;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      align-items: center;
+      padding-top: 1rem;
+
+      .btn {
+        background-color: #cfa477;
+        font-family: vintage;
+      }
+    }
+  }
+}

@@ -1,4 +1,11 @@
 <div class="bg-login">
   <h1 class="responsive">MY BEST PHOTOGRAPHY</h1>
-  <app-login-view></app-login-view>
+  <app-login-view *ngIf="viewSignup"></app-login-view>
+  <app-signup-view *ngIf="!viewSignup"></app-signup-view>
+  <h5 *ngIf="viewSignup">
+    i don't have account <span (click)="changeViewClick()">Signup</span>
+  </h5>
+  <h5 *ngIf="!viewSignup">
+    i have account <span (click)="changeViewClick()">Login</span>
+  </h5>
 </div>

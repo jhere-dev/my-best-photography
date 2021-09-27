@@ -10,7 +10,7 @@
 
   height: 100vh;
   h1 {
-    color: white;
+    color: black;
     text-align: center;
     padding: 1rem;
 
@@ -30,6 +30,19 @@
     //     from(transparent),
     //     to(rgba(255, 255, 255, 0.5))
     //   );
+  }
+  h5 {
+    text-align: center;
+    color: white;
+    padding: 1.5rem;
+    margin-left: 10%;
+    font-size: 1rem;
+
+    span {
+      color: black;
+      margin-left: 0.2rem;
+      font-family: vintage;
+    }
   }
 }
 
